@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Anggun – Perawatan Rambut & Kecantikan</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffafc;
+      color: #333;
+    }
+
+    header {
+      background-color: #e91e63;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #f8bbd0;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #e91e63;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services, .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+    .service, .gallery img {
+      flex: 1 1 250px;
+      border-radius: 8px;
+      background: #ffe4ec;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .gallery img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: #e91e63;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .contact {
+      background-color: #fff0f5;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .contact form input, .contact form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .contact form button {
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact form button:hover {
+      background-color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Salon Anggun</h1>
+    <p>Kecantikanmu, Prioritas Kami ✨</p>
+  </header>
+
+  <nav>
+    <a href="#layanan">Layanan</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="layanan">
+    <h2>Layanan Kami</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Potong Rambut</h3>
+        <p>Potongan profesional sesuai gaya dan bentuk wajahmu.</p>
+      </div>
+      <div class="service">
+        <h3>Creambath & Hair Spa</h3>
+        <p>Manjakan rambutmu agar tetap sehat dan berkilau.</p>
+      </div>
+      <div class="service">
+        <h3>Hair Coloring</h3>
+        <p>Ubah penampilanmu dengan warna rambut kekinian.</p>
+      </div>
+      <div class="service">
+        <h3>Make Up & Styling</h3>
+        <p>Tampil sempurna untuk acara spesialmu.</p>
+      </div>
+    </div>
+  </section>
+
+<section id="galeri">
+  <h2>Galeri</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=500&q=80" alt="Potong Rambut">
+    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=500&q=80" alt="Hair Coloring">
+    <img src="https://mediaindonesia.gumlet.io/news/2024/03/8ba83dea1ae83b258437925671634e03.jpg?w=376&dpr=2.6" alt="Make Up">
+    <img src="https://blog.buywow.in/wp-content/uploads/2024/06/jpeg-optimizer_soothing-shampoo-experience-prior-to-stem-cell-hai-2024-04-01-20-00-49-utc-scaled.jpg" alt="Hair Spa">
+  </div>
+</section>
+
+
+
+
+  <section id="kontak">
+    <h2>Hubungi Kami</h2>
+    <div class="contact">
+      <p>📍 Alamat: Jl. Mawar No. 45, Jakarta</p>
+      <p>📞 Telepon: 0812-3456-7890</p>
+      <p>📧 Email: halo@salonanggun.com</p>
+
+      <form>
+        <input type="text" placeholder="Nama Anda" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="4" placeholder="Pesan Anda..." required></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Salon Anggun | Dibuat dengan 💖</p>
+  </footer>
+
+</body>
+</html>
